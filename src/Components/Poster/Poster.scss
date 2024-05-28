@@ -1,0 +1,104 @@
+$primary : #9E13CF;
+
+
+
+
+.head-open {
+
+    font-family: 'Golos';
+    font-size: 20px;
+    font-weight: 600;
+    margin: 0px 200px 0px 200px;
+}
+
+
+
+   
+
+
+.head-block{
+    width: 100%;
+    margin-top: 60px;
+    position: absolute;
+    height: 500px;
+    background: linear-gradient(45deg, $primary, black );
+    background-size: 200% 200%;
+    z-index: 1;
+    animation: gradient 7s ease infinite;
+}
+
+.head-btn {
+    font-family: 'Golos';
+    font-size: 20px;
+    font-weight: 600;
+    background-color: black;
+    width: 300px;
+    height: 70px;
+    border-radius: 50px;
+    border: none;
+    
+    // background-color: #9E13CF;
+    // outline-color: #9E13CF !important;
+
+}
+
+.head-btn:hover {
+    background-color: black;
+    box-shadow: 0 5px 50px 0 $primary inset, 0 5px 50px 0 $primary;
+    
+}
+
+.head-wrap {
+    margin: 0;
+}
+
+.head-img-slide {
+    
+    display: inline-block;
+    animation: 20s slide infinite linear;
+
+}
+
+.head-slide {
+    overflow: hidden;
+    white-space: nowrap;
+    
+}
+
+.head-img {
+    left: 0;
+    margin: 1px;
+    object-fit:cover;
+    width: 120px;
+    height: 170px;
+    padding-bottom: 3px;
+    opacity: 85%;
+    
+    border-radius: 13px;
+    
+    
+
+
+
+  }
+
+@keyframes gradient{
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+@keyframes slide {
+    from {
+        transform: translateX(0);
+    }
+    to {
+        transform: translateX(-100%);
+    }
+}

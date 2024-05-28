@@ -1,0 +1,58 @@
+$primary : #9E13CF;
+
+@font-face {
+    font-family: "Porter Sans Block";
+    src: url("../fonts/portersansblock-regular-webfont.woff"),
+         url("../fonts/portersansblock-regular-webfont.woff2");
+}
+
+
+
+.foot-mid-links {
+    /* padding-right: 10px; */
+    color: white;
+    margin-left: 2px;
+    margin-right: 25px;
+    font-family: 'Golos';
+    font-size: 20px;
+    font-weight: 600;
+    
+}
+
+.foot-wrap {
+    margin-left: 8px;
+}
+
+.foot-border-7 {
+    border-width: 7px !important;
+    border-color: $primary !important;
+    
+  }
+
+  .foot-bot {
+    position:absolute;
+    margin-bottom: -160px;
+    bottom: 0;
+    width: 100%;
+  }
+
+
+
+.foot-right-links {
+    position: relative;
+    margin-right: -4px;
+    
+    margin-left:5px;
+    font-family: 'Golos';
+    font-size: 20px;
+    font-weight: 600;
+
+
+    
+}
+
+.foot-brand {
+    margin-left: 35px;
+   font-family: "Porter Sans Block";
+   font-size: 30px;
+}

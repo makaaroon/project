@@ -1,0 +1,89 @@
+/* .card-container {
+    width: 300px;
+    height: 400px;
+    box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+    
+    transition: 0.2s;
+    
+    margin: 92px;
+    margin-left: 5px;
+  } */
+$primary: #9E13CF;
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Golos+Text&display=swap');
+
+  .card-rating {
+    width: 54px;
+    height: 38px;
+    background-color: $primary;
+    border-top-left-radius: 12px;
+    border-bottom-right-radius: 15px;
+    margin-top:60px;
+    margin-left: 25px;
+    position: absolute;
+   
+   
+    
+    
+
+  }
+
+
+.card-inline {
+  display: inline-block;
+  cursor: pointer;
+}
+
+.card-h2-rating{
+
+    font-family: 'Golos';
+    font-size: 1.4rem;
+    font-weight: 600;
+    color: white;
+    margin-top: 5px;
+    
+    
+  }
+
+  .card-name {
+    position: absolute;
+    padding-left: 25px;
+    margin-top: -20px;
+    font-family: 'Golos';
+    font-size: 23px;
+    font-weight: 600;
+    color: white;
+  }
+
+  .card-year {
+    
+    padding-right: 225px;
+    margin-top: 15px;
+    font-family: 'Golos';
+    font-size: 18px;
+    font-weight: 600;
+    color: #CABCBC;
+  }
+
+  .card-anim:hover {
+    transform: scale(1.07);
+  }
+
+
+.card-image-card {
+    margin: 25px;
+    margin-top: 60px;
+    margin-bottom: 30px;
+    object-fit:cover;
+    width: 270px;
+    height: 350px;
+    border-radius: 13px;
+    border-width: 5px;
+   
+
+
+
+  }

@@ -1,0 +1,101 @@
+[
+    {
+        "id":11,
+        "img" : "/public/small/roadhouse.jpg",
+        "name" : "Дом у дороги",
+        "rating": 7.6,
+        "year": 2024
+    },
+    {
+        "id":11,
+        "img" : "/public/small/fallguy.jpg",
+        "name" : "Каскадёры",
+        "rating": 7.6,
+        "year": 2024
+    },
+    {
+        "id":11,
+        "img" : "/public/small/challangers.jpg",
+        "name" : "Претенденты",
+        "rating": 7.6,
+        "year": 2024
+    },
+    {
+        "id":11,
+        "img" : "/public/small/arthur.jpg",
+        "name" : "Артур, ты король",
+        "rating": 7.6,
+        "year": 2024
+    },
+
+    {
+        "id":4,
+        "img" : "/small//taxist.jpg",
+        "name" : "Таксист",
+        "rating": 7.6,
+        "year": 1976
+    },
+    {
+        "id":5,
+        "img" : "/small//bladerunner.jpg",
+        "name" : "Бегущий по лезвию",
+        "rating": 7.6,
+        "year": 1982
+    },
+    
+    {
+        "id":6,
+        "img" : "/small//goodbad.jpg",
+        "name" : "Хороший, плохой, злой",
+        "rating": 9.9,
+        "year": 1966
+    },
+
+
+    {
+        "id":8,
+        "img" : "/small//harry.jpg",
+        "name" : "Грязный Гарри",
+        "rating": 8.8,
+        "year": 1971
+    },
+    
+    {
+        "id":7,
+        "img" : "/public/small/payne.jpg",
+        "name" : "Майор Пэйн",
+        "rating": 9.8,
+        "year": 1995 
+        
+    },
+
+    
+    
+    {
+        "id":9,
+        "img" : "/small//hangover.jpg",
+        "name" : "Мальчишник в Вегасе",
+        "rating": 7.6,
+        "year": 2009
+    },
+
+    {
+        "id":10,
+        "img" : "/small//diamond.jpg",
+        "name" : "Бриллиантовая рука",
+        "rating": 7.6,
+        "year": 1968
+    },
+    {
+        "id":10,
+        "img" : "/small//1+1.jpg",
+        "name" : "1+1",
+        "rating": 7.6,
+        "year": 2011
+    }
+
+
+
+
+]
+

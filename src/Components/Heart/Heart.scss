@@ -1,0 +1,11 @@
+.like-button {
+    cursor: pointer;
+    
+    font-size: 80px;
+    transition: transform 0.2s ease-in-out;
+}
+
+.like-button:hover {
+    transform: scale(1.2);
+}
+

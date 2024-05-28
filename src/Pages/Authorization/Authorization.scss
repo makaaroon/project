@@ -1,0 +1,65 @@
+$primary : #9E13CF;
+
+.auth-email {
+    width: 500px;
+    margin-left: 500px;
+    margin-top: 40px;
+    justify-content: center;
+    // text-align: start;
+    
+}
+
+.auth-password {
+    width: 500px;
+    margin-left: 500px;
+    margin-top:130px;
+    justify-content: center;
+    // text-align: start;
+    
+}
+
+.auth-btn {
+    font-family: 'Golos';
+    font-size: 20px;
+    font-weight: 600;
+    background-color: black;
+    width: 350px;
+    height: 70px;
+    // position: absolute;
+    margin-top: 240px;
+    z-index: 1;
+    border-radius: 50px;
+    border: 3px solid $primary;
+    
+    
+     //background-color: #9E13CF;
+     outline-color: #9E13CF !important;
+
+}
+
+.auth-btn:hover {
+    background-color: black;
+    box-shadow: 0 5px 50px 0 $primary inset, 0 5px 50px 0 $primary;
+    border-color: $primary;
+    
+}
+
+.auth-footer {
+    margin-top: 70px;
+}
+
+.auth-reg-title {
+    // position: relative;
+    margin-top: 60px;
+    margin-bottom: 0;
+    color: white;
+    font-family: 'Golos';
+    font-weight: 600;
+    font-size: 40px;
+    
+}
+
+.auth-full {
+    margin-top: 100px;
+}
+

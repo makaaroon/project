@@ -1,0 +1,115 @@
+$primary : #9E13CF;
+
+.profile-title {
+
+    font-family: 'Golos';
+    font-weight: 600;
+    // font-size: 40px;
+    margin-left: 135px;
+    text-align: start;
+    color: white;
+    margin-top: 70px;
+    
+}
+
+.profile-cabinet {
+    // position: absolute;
+    margin-left: 135px;
+    text-align: start;
+    color: white;
+
+}
+
+.profile-info-title {
+    margin-top: 30px;
+    font-family: 'Golos';
+    font-weight: 600;
+    // font-size: 40px;
+}
+
+.profile-info-ans {
+    margin-top: -39px;
+    margin-left: 140px;
+    font-family: 'Golos';
+    font-weight: 500;
+    // font-size: 40px;
+}
+
+.profile-email-title {
+    position: absolute;
+    font-family: 'Golos';
+    font-weight: 600;
+    // font-size: 40px;
+    margin-left: 145px;
+    text-align: start;
+    color: white;
+    margin-top: 70px;
+    
+}
+
+.profile-fav-title {
+    font-family: 'Golos';
+    position: absolute;
+    font-weight: 600;
+    // font-size: 40px;
+    margin-left: 730px;
+    text-align: start;
+    color: white;
+    margin-top: -196px;
+}
+
+.profile-bas {
+    // position: absolute;
+    margin-left: 730px;
+    width: 500px;
+    margin-top: -101px;
+}
+
+.profile-fas {
+    font-family: 'Golos';
+    //  position: absolute;
+    font-weight: 500;
+    background-color: black;
+    border: 1px solid $primary;
+    height: 50px;
+    color: white;
+}
+
+
+
+.profile-wrap {
+    margin-bottom: 10px;
+}
+
+.profile-btn {
+    font-family: 'Golos';
+    font-size: 20px;
+    font-weight: 600;
+    background-color: black;
+    width: 850px;
+    height: 100px;
+    // position: absolute;
+    margin-top: 100px;
+    z-index: 1;
+    border-radius: 50px;
+    border: 3px solid $primary;
+    
+    
+     //background-color: #9E13CF;
+     outline-color: #9E13CF !important;
+
+}
+
+.profile-btn:hover {
+    background-color: black;
+    box-shadow: 0 5px 50px 0 $primary inset, 0 5px 50px 0 $primary;
+    border-color: $primary;
+    
+}
+
+
+.profile-full {
+    // position: relative;
+    margin-top: 60px;
+    margin-bottom: 100p
+}
